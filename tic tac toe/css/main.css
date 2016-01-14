@@ -1,0 +1,24 @@
+.div-table {
+  display: table;
+  width: auto;
+  border: 1px solid black;
+}
+
+.div-table-row {
+  display: table-row;
+  width: auto;
+}
+
+.div-table-col {
+  float: left;
+  /*fix for  buggy browsers*/
+  display: table-column;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.hide {
+  display: none;
+}
